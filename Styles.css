@@ -1,0 +1,101 @@
+.body{
+    margin: 0px;
+}
+
+.container{
+    margin: 0px;
+    width: 100%;
+    
+}
+
+.left-side{
+    width: 20%;
+    height: 100vh;
+    background-color:black;
+
+}
+
+
+.sidebar-title{
+    color:white;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 10pc;
+}
+
+.hr-line{
+    border-bottom: 2px;
+    border-color: black;
+    border-width: 2px;
+}
+
+.sidebar-tab{
+    background-color:rgb(218, 218, 212);
+    border-radius: 6px;
+    border: 2px;
+    border-color: black;
+    border-width: 2px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.right-side{
+   width:80%;
+   height: 100vh;
+   z-index: 9999;
+   position:relative;
+   background-image:url(nature.png);
+}
+
+.align-right{
+   margin-right: 30px;
+}
+
+.icon{
+    width: 30px;
+
+}
+
+.d-flex{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    background-color: black;
+}
+
+.bg-grey{
+    background-color:gold;
+}
+
+.profile-div{
+    padding: 5px;
+    margin-right: 10px;
+
+}
+
+.profile-img{
+    width:30px ;
+
+}
+
+.nav-link{
+    list-style-type: none;
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+.nav-text{
+    color: black;
+    text-decoration: none;
+    text-transform:uppercase ;
+   /* justify-content: space-around;*/
+    display:flex ;
+    align-items:center;
+    background-color: rgb(18, 206, 231);
+    
+}
+
+.nav-menu{
+  padding-left: 10px;
+
+}
